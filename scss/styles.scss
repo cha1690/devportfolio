@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #22c1c3;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -145,7 +145,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    text-align: center;
+    text-align: right;
     z-index: 10;
     animation-name: dropHeader;
     animation-iteration-count: 1;
@@ -155,7 +155,7 @@ header {
     ul {
         display: inline-block;
         background: $background;
-        text-align: center;
+        text-align: right;
         padding: 10px;
         margin: 0;
         border-bottom-right-radius: 4px;
